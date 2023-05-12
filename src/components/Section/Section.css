@@ -1,0 +1,14 @@
+.section-container {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-bottom: 6rem;
+}
+
+#root .section-container:first-of-type {
+  height: calc(100dvh - 6rem);
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

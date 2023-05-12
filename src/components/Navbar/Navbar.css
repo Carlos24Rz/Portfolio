@@ -1,0 +1,27 @@
+.header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: var(--chakra-colors-blue-900);
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  column-gap: 2rem;
+}
+
+.navbar li a {
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.navbar li a:hover {
+  border-bottom: 1px solid #f7fafc;
+}
