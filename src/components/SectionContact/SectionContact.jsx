@@ -52,7 +52,8 @@ function SectionContact() {
           width="100%"
           paddingRight={{ base: 0, lg: '4rem' }}
           name="contact"
-          netlify="true"
+          method="POST"
+          data-netlify="true"
           onSubmit={handleSubmit}
         >
           <Heading as="h3" size="md" marginBottom="2rem">
